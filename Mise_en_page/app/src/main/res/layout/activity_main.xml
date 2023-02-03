@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/silver"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Mise en page"
+        android:textColor="@color/black"
+        android:textSize="@android:dimen/app_icon_size" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginHorizontal="20dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/chat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="@color/green"
+            android:padding="10dp"
+            android:text="Chat"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/croix"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="@color/green"
+            android:padding="10dp"
+            android:text="Croix"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/pave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="@color/green"
+            android:padding="10dp"
+            android:text="Pavé"
+            android:textSize="25sp" />
+    </LinearLayout>
+</RelativeLayout>
